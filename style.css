@@ -1,0 +1,102 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.section{
+    display: flex;
+    width: 1440px;
+    height: 1080px;
+    padding: 284px 352px;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    width: 368px;
+    height: 512px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+
+}
+.box2{
+    width: 736px;
+    height: 512px;
+    display: flex;
+}
+.convert{
+    padding-top: 38px;
+    padding-bottom: 55px;
+    padding-left: 54px;
+    padding-right: 54px;
+}
+.title-text{
+    color: #CAC9FF;
+    text-align: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    border-radius: 999px;
+    position: relative;
+    margin: auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    color: #FFF;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 72px;
+    font-family: "HankenGroteskBold";
+}
+.little-number{
+    color: #CAC9FF;
+    text-align: center;
+    padding-top: 4px;
+}
+.great{
+    text-align: center;
+    padding-top: 28px;  
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
+}
+.description{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "HankenGroteskRegular";
+    text-align: center;
+    opacity: 0.7;
+    padding-top: 14px;
+    color: #CAC9FF;
+}
+
+.fitle-text{
+    padding-left: 40px;
+    color: #303B59;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: block;
+}
+.figures{
+    margin-top: 97px;
+}
+.class{
+    display: flex;
+    justify-content: space-around;
+}
+.in-class{
+    display: flex;
+}
